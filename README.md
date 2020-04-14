@@ -19,4 +19,4 @@ write little program, which been counting incoming and outcoming people.
    first frame, so I compare two frame and if chenges exist i find where. If area bigest more than
  1200 I draw rectange around object which been chenged, if less than contour is too small, ignore it.
 
-# d:\1.STUDY>   cd testfolder\python\pcount\pc1\people-Counter
+root:  d:   cd 1.study\testfolder\python\pcount\pc1\people-Counter
