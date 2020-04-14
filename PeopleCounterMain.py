@@ -65,7 +65,7 @@ if __name__ == "__main__":
         cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
         # loop over the contours
         for c in cnts:
-            print(c)
+            #print(c)
             # if the contour is too small, ignore it
             if cv2.contourArea(c) < 12000:
                 continue
