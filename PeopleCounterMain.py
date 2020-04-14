@@ -89,10 +89,10 @@ if __name__ == "__main__":
             # draw the text and timestamp on the frame
 
             # show the frame and record if the user presses a key
-            # cv2.imshow("Thresh", thresh)
-            # cv2.imshow("Frame Delta", frameDelta)
+             cv2.imshow("Thresh", thresh)
+             cv2.imshow("Frame Delta", frameDelta)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('e'):
             break
 
         cv2.putText(frame, "People Count".format(str(textIn)), (8, 20),
